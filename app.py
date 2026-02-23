@@ -1,10 +1,8 @@
 from flask import Flask
 
-app = Flask(__name__)
-
-@app.route("/")
-def home():
-    return "Name: Krishnav Shende | AppID: EXP6 | Updated|  WEBHOOK Working"
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+print("=================================")
+print("Experiment 6 - CI/CD Working")
+print("Name: Krishnav Shende")
+print("AppID: EXP6")
+print("Webhook Trigger Successful")
+print("=================================")
